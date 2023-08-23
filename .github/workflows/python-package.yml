@@ -22,4 +22,4 @@ jobs:
         cache-dependency-path: setup.py
     - run: pip install -e .
     - name: Run Unit Tests
-      run: python3 ./start_unit.py
+      run: python3 ./src/start_unit.py
